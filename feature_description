@@ -1,0 +1,15 @@
+Readily available features:
+time = date in yearqtr format
+short_term_i = short term interest rate
+inf = inflation
+target = target inflation
+gdp = GDP, adjusted for inflation
+gdppot = Potential GDP, adjusted for inflation
+total_debt = Total debt of USA
+unemployment_rate = Unemployment rate in the US
+
+Engineered features:
+crisis_dummy = Dummy variable that indicates whether the US was going through a crisis during the year or not.(9/11, market crash etc.)
+recession_dummy = Dummy variable that indicates whether there was a recession or not.
+inf_diff = The difference between actual inflation and target inflation, calculated as follows: inf - target 
+outputgap = the Output gap of the USA, calculated as follows: (gdp-gdppot)/gdppot*100
